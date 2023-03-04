@@ -50,10 +50,11 @@ function PagePost() {
       <h2>{post.title}</h2>
       <p>{post.body}</p>
       <hr />
+      {imageElement}
+      <hr />
       <h4>{commentArray.length} Comments</h4>
       {commentElements}
-      <hr />
-      {imageElement}
+
     </LayoutPage>
   );
 }
